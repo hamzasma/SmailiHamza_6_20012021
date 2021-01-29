@@ -1,7 +1,7 @@
 const Sauces = require('../models/sauces');
 const fs = require('fs');
 const sauces = require('../models/sauces');
-const { render } = require('../app');
+
 //configuration des controllers//
 exports.createSauce = (req, res, next) => {
   const sauceObject = JSON.parse(req.body.sauce);
